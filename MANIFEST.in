@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include azure_blob *.css
+recursive-include azure_blob *.csv
+recursive-include azure_blob *.html
+recursive-include azure_blob *.ico
+recursive-include azure_blob *.js
+recursive-include azure_blob *.json
+recursive-include azure_blob *.md
+recursive-include azure_blob *.png
+recursive-include azure_blob *.py
+recursive-include azure_blob *.svg
+recursive-include azure_blob *.txt
+recursive-exclude azure_blob *.pyc
