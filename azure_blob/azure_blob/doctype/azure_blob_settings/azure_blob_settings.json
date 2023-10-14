@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "creation": "2023-10-14 12:33:16.470592",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "column_break_ugvn",
+  "section_break_cbxj",
+  "container_name",
+  "column_break_jkpk",
+  "connection_string",
+  "sas_validity"
+ ],
+ "fields": [
+  {
+   "fieldname": "container_name",
+   "fieldtype": "Data",
+   "label": "Container Name",
+   "mandatory_depends_on": "enabled"
+  },
+  {
+   "fieldname": "column_break_jkpk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "connection_string",
+   "fieldtype": "Password",
+   "label": "Connection String",
+   "mandatory_depends_on": "enabled"
+  },
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "column_break_ugvn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cbxj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "SAS URL validity in hours",
+   "fieldname": "sas_validity",
+   "fieldtype": "Int",
+   "label": "SAS Validity",
+   "mandatory_depends_on": "enabled"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-10-14 18:36:22.340987",
+ "modified_by": "Administrator",
+ "module": "Azure Blob",
+ "name": "Azure Blob Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

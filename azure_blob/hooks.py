@@ -214,3 +214,6 @@ app_license = "MIT"
 # auth_hooks = [
 #	"azure_blob.auth.validate"
 # ]
+
+write_file = "azure_blob.utils.upload_to_blob"
+delete_file_data_content = "azure_blob.utils.delete_from_blob"
